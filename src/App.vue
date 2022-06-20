@@ -1,18 +1,21 @@
 <template>
   <div id="app">
     <PageTitle></PageTitle>
+    <PageHero></PageHero>
   </div>
 </template>
 
 <script>
 import PageTitle from './components/PageTitle.vue'
+import PageHero from './components/PageHero.vue'
 
 
 export default {
   name: 'App',
   components: {
-    PageTitle
-  }
+    PageTitle,
+    PageHero,
+}
 }
 </script>
 
